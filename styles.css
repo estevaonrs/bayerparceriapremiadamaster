@@ -1,0 +1,440 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.frame {
+    width: 600px;
+    height: 1361.4px; /* Altura do frame conforme sua especificação */
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/* Elementos do Frame 1 - Parte Superior */
+.ativo-4 {
+    position: absolute;
+    width: 600px;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+
+.ativo-3 {
+    position: absolute;
+    width: 84.35px;
+    height: 55.76px;
+    top: 12px;
+    left: 27px;
+}
+
+.ativo-1 {
+    position: absolute;
+    width: 9.37px;
+    height: 14.05px;
+    top: 33px;
+    left: 503px;
+}
+
+.ativo-2 {
+    position: absolute;
+    width: 25.41px;
+    height: 16px;
+    top: 32px;
+    left: 528px;
+}
+
+.ativo-11 {
+    position: absolute;
+    width: 600px;
+    height: 297px;
+    top: 80px;
+    left: 0;
+}
+
+.ativo-10 {
+    position: absolute;
+    width: 510.68px;
+    height: 221.93px;
+    top: 97px;
+    left: 0;
+}
+
+.ativo-7 {
+    position: absolute;
+    width: 298.91px;
+    height: 119.65px;
+    top: 137px;
+    left: 43px;
+}
+
+.ativo-6 {
+    position: absolute;
+    width: 170.51px;
+    height: 112.72px;
+    top: 126px;
+    left: 395px;
+}
+
+.ativo-9 {
+    position: absolute;
+    width: 572.02px;
+    height: 80.35px;
+    top: 296px;
+    left: 27px;
+}
+
+/* Agrupamento de link para Ativo 8 e Ativo 5 */
+.link-grupo-ativo-5-8 {
+    position: absolute;
+    top: 322.35px;
+    left: 70px;
+    width: 216.52px;
+    height: 27.21px;
+    display: block;
+    text-decoration: none;
+    z-index: 1; 
+}
+
+.link-grupo-ativo-5-8 .ativo-8 {
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+}
+
+.link-grupo-ativo-5-8 .ativo-5 {
+    position: absolute;
+    width: 176.94px;
+    height: 16px;
+    top: 4.65px; 
+    left: 20px; 
+}
+
+.ativo-45 { /* Usado para Ativo 63.png */
+    position: absolute;
+    width: 600px;
+    height: 197.11px;
+    top: 375px;
+    left: 0;
+}
+
+.ativo-44 { /* Usado para Ativo 62.png - posição antiga */
+    position: absolute;
+    width: 53.36px;
+    height: 17.25px;
+    top: 416px;
+    left: 0;
+}
+
+/* Estilos para os grupos e textos */
+.group-ativo-46 {
+    position: absolute;
+    width: 444.03px;
+    height: 106.17px;
+    top: 409.12px;
+    left: 70px;
+}
+
+.group-ativo-47 {
+    position: absolute;
+    width: 210px;
+    height: 26.01px;
+    top: 0; 
+    left: 0; 
+    overflow: hidden; 
+}
+
+.text-ola-nomemaster {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    font-size: 22px; 
+    font-weight: bold;
+    color: #333; 
+    line-height: 1.2; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+}
+
+.group-ativo-48 {
+    position: absolute;
+    width: 418px;
+    height: 49.61px;
+    top: 39.98px; 
+    left: 0; 
+}
+
+.text-novidade-importante {
+    position: absolute;
+    width: 230px;
+    height: 16px;
+    top: 0; 
+    left: 0; 
+    margin: 0;
+    padding: 0;
+    font-size: 14px; 
+    color: #333;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.text-plataforma-atualizada {
+    position: absolute;
+    width: 450px;
+    height: 16px;
+    top: 16.8px; 
+    left: 0; 
+    margin: 0;
+    padding: 0;
+    font-size: 14px; 
+    color: #333;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.text-mais-simples-pratico {
+    position: absolute;
+    width: 368px;
+    height: 16px;
+    top: 33.61px; 
+    left: 0; 
+    margin: 0;
+    padding: 0;
+    font-size: 14px; 
+    color: #333;
+    line-height: 1.2;
+}
+
+/* Estilos de imagens adicionados em rodadas anteriores */
+.ativo-61 {
+    position: absolute;
+    width: 297.45px;
+    height: 17.25px;
+    top: 562px;
+    left: 302px;
+}
+
+.ativo-51 {
+    position: absolute;
+    width: 266.75px;
+    height: 355.27px;
+    top: 515px;
+    left: 12px;
+    z-index: 1;
+}
+
+.ativo-52 {
+    position: absolute;
+    width: 10.87px;
+    height: 17.25px;
+    top: 630px;
+    left: 313px;
+}
+
+.ativo-58 {
+    position: absolute;
+    width: 247.52px;
+    height: 78.8px;
+    top: 625px;
+    left: 334px;
+}
+
+.ativo-411 {
+    position: absolute;
+    width: 246.48px;
+    height: 66.4px;
+    top: 732px;
+    left: 334px;
+}
+
+.ativo-43 {
+    position: absolute;
+    width: 600px;
+    height: 218px;
+    top: 843px;
+    left: 0;
+}
+
+.ativo-30 {
+    position: absolute;
+    width: 126.5px;
+    height: 26px;
+    top: 926px;
+    left: 54px;
+}
+
+.ativo-29 {
+    position: absolute;
+    width: 370px;
+    height: 50px;
+    top: 968px;
+    left: 54px;
+}
+
+.link-ativo-31 {
+    position: absolute;
+    width: 115.73px;
+    height: 37.42px;
+    top: 915px;
+    left: 456px;
+    display: block;
+    text-decoration: none;
+}
+.link-ativo-31 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.link-ativo-32 {
+    position: absolute;
+    width: 115.73px;
+    height: 37.42px;
+    top: 968px;
+    left: 456px;
+    display: block;
+    text-decoration: none;
+}
+.link-ativo-32 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.ativo-42 {
+    position: absolute;
+    width: 600px;
+    height: 80px;
+    top: 1061px;
+    left: 0;
+}
+
+/* Estilos de imagens adicionados na rodada anterior */
+.ativo-44-new-pos { /* Classe renomeada para evitar conflito */
+    position: absolute;
+    width: 600px;
+    height: 220px;
+    top: 1141px;
+    left: 0;
+}
+
+.link-ativo-37 {
+    position: absolute;
+    width: 44.54px;
+    height: 44.54px;
+    top: 1181px;
+    left: 100px;
+    display: block;
+    text-decoration: none;
+}
+.link-ativo-37 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.ativo-36 {
+    position: absolute;
+    width: 142.12px;
+    height: 16px;
+    top: 1235px;
+    left: 54px;
+}
+
+.ativo-33 {
+    position: absolute;
+    width: 472.43px;
+    height: 32.4px;
+    top: 1297px;
+    left: 54px;
+}
+
+.ativo-35 {
+    position: absolute;
+    width: 96px;
+    height: 16px;
+    top: 1187px;
+    left: 320px;
+}
+
+.link-ativo-41 {
+    position: absolute;
+    width: 44.54px;
+    height: 44.54px;
+    top: 1221px;
+    left: 320px;
+    display: block;
+    text-decoration: none;
+}
+.link-ativo-41 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.link-ativo-40 { /* Classe original se você não especificou uma nova */
+    position: absolute;
+    width: 44.54px;
+    height: 44.54px;
+    top: 1222px;
+    left: 386.54px;
+    display: block;
+    text-decoration: none;
+}
+.link-ativo-40 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.link-ativo-39 {
+    position: absolute;
+    width: 44.54px;
+    height: 44.54px;
+    top: 1222px;
+    left: 453.08px;
+    display: block;
+    text-decoration: none;
+}
+.link-ativo-39 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.link-ativo-38 {
+    position: absolute;
+    width: 44.54px;
+    height: 44.54px;
+    top: 1222px;
+    left: 519.62px;
+    display: block;
+    text-decoration: none;
+}
+.link-ativo-38 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* NOVO ESTILO PARA ATIVO 34 */
+.ativo-34 {
+    position: absolute;
+    width: 91.72px;
+    height: 14px;
+    top: 1260px;
+    left: 78px;
+}
